@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://scorekeeper.rackdisciplineusa.com/sitemap.xml
