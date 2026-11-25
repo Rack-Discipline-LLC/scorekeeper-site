@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scorekeeper: Apple Watch scoring app for billiards, golf and tennis</title>
-  <meta name="description" content="Keep score from your wrist with simple Apple Watch scoring for billiards, golf, tennis, and a plain counter.">
+  <title>Scorekeeper: Apple Watch scoring for tennis, pool and golf</title>
+  <meta name="description" content="Keep score from your wrist: Apple Watch scoring for tennis matches, pool races and sets, golf, and any sport. Stays on screen when you lower your wrist.">
   <link rel="canonical" href="https://scorekeeper.rackdisciplineusa.com/">
   <meta name="apple-itunes-app" content="app-id=6740005702">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Rack Discipline LLC">
-  <meta property="og:title" content="Scorekeeper: Apple Watch scoring app for billiards, golf and tennis">
-  <meta property="og:description" content="Keep score from your wrist with simple Apple Watch scoring for billiards, golf, tennis, and a plain counter.">
+  <meta property="og:title" content="Scorekeeper: Apple Watch scoring for tennis, pool and golf">
+  <meta property="og:description" content="Keep score from your wrist: Apple Watch scoring for tennis matches, pool races and sets, golf, and any sport. Stays on screen when you lower your wrist.">
   <meta property="og:url" content="https://scorekeeper.rackdisciplineusa.com/">
   <meta property="og:image" content="https://scorekeeper.rackdisciplineusa.com/img/Scorekeeper%20logo.png">
   <meta property="og:image:alt" content="Scorekeeper app icon">
@@ -24,7 +24,7 @@
     "name": "Scorekeeper",
     "applicationCategory": "SportsApplication",
     "operatingSystem": "watchOS",
-    "description": "Apple Watch scoring for billiards, golf, tennis and a simple counter.",
+    "description": "Apple Watch scoring for tennis matches, pool races and sets, golf, and a simple counter for any sport.",
     "downloadUrl": "https://apps.apple.com/us/app/6740005702",
     "url": "https://scorekeeper.rackdisciplineusa.com/",
     "image": "https://scorekeeper.rackdisciplineusa.com/img/Scorekeeper%20logo.png",
@@ -39,6 +39,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
+  <style>
+    /* Apple Watch screenshots are small and square-ish: show each pair side by side. */
+    .feature__media .screenshot {
+      width: calc(50% - 0.4rem);
+      max-width: 15rem;
+      margin: 0;
+      border-radius: 2.25rem;
+    }
+  </style>
   <script src="https://rackdisciplineusa.com/consent.js" defer></script>
 </head>
 <body>
@@ -61,7 +70,7 @@
       <img class="hero__product-mark" src="img/Scorekeeper logo.png" alt="Scorekeeper app icon">
       <p class="hero__audience">For players who want the score on their wrist</p>
       <h1>Scorekeeper</h1>
-      <p class="hero__lede">Keep score without digging for your phone — simple Apple Watch scoring for billiards, golf, tennis, and a plain counter when that is all you need.</p>
+      <p class="hero__lede">Keep score without digging for your phone. Simple Apple Watch scoring for tennis, pool, golf, and a plain counter for any sport, and it stays on screen when you lower your wrist.</p>
       <div class="hero__actions">
         <a class="store-badge" href="https://apps.apple.com/us/app/6740005702">
           <img src="img/App_store_logo.svg" alt="Download on the App Store">
@@ -71,63 +80,68 @@
 
     <section class="section">
       <h2 class="section__title">Keep score. Stay in the game.</h2>
-      <p class="section__intro">Built for Apple Watch. The list of sports will grow; the goal stays the same — simple scoring when you need it.</p>
+      <p class="section__intro">Built for Apple Watch. Tap to score, glance to check, and get back to the game.</p>
 
       <article class="feature">
         <div class="feature__media">
-          <img class="screenshot" src="screenshots/Menu1.png" alt="Scorekeeper menu">
-          <img class="screenshot" src="screenshots/Menu 2.png" alt="Scorekeeper sports list">
+          <img class="screenshot" src="screenshots/01-menu-40mm.png" alt="Scorekeeper sport menu">
+          <img class="screenshot" src="screenshots/01b-menu-all-sports-40mm.png" alt="Golf, tennis, pool and any sport">
         </div>
         <div class="feature__copy">
-          <h3>Introduction</h3>
-          <p>Scorekeeper tracks the score of a game without clutter. Pick a sport and go.</p>
-          <p>Available sports expand over time. The focus remains a simple, no-fuss app for your watch.</p>
+          <h3>Pick a sport and go</h3>
+          <p>Golf, tennis, pool, or a plain counter for anything else. No setup, no accounts, no clutter.</p>
+          <p><strong>Stays on screen.</strong> Lower your wrist between points and Scorekeeper is still there when you look back, with Always On so the score stays visible. Your game is saved as you go, so if the watch closes the app you pick up exactly where you left off.</p>
+          <p>Haptic taps confirm every point and win, and a watch face complication shows the live score.</p>
         </div>
       </article>
 
       <article class="feature feature--flip">
         <div class="feature__media">
-          <img class="screenshot" src="screenshots/Hole select.png" alt="Golf hole select">
-          <img class="screenshot" src="screenshots/Golf.png" alt="Golf scoring">
-        </div>
-        <div class="feature__copy">
-          <h3>Golf</h3>
-          <p>Choose how many holes you plan to play and track your shots. Use the crown to switch holes; the app totals your score.</p>
-          <p>No yardages, putts, or stroke types — we are not replacing your rangefinder. Think of it as beads on a string, upgraded.</p>
-        </div>
-      </article>
-
-      <article class="feature">
-        <div class="feature__media">
-          <img class="screenshot" src="screenshots/Tennis.png" alt="Tennis scoring">
+          <img class="screenshot" src="screenshots/02-tennis-setup-40mm.png" alt="Tennis match setup">
+          <img class="screenshot" src="screenshots/04-tennis-match-40mm.png" alt="Tennis scoring with sets and games">
         </div>
         <div class="feature__copy">
           <h3>Tennis</h3>
-          <p><strong>OK</strong> — this one is for fun and shows what the watch can do: "40 – Love", "Deuce", "Advantage", "Game!"</p>
-          <p>It scores one game at a time. Games and sets would crowd the display. Tell us if you would use full match scoring and we may add it later.</p>
-        </div>
-      </article>
-
-      <article class="feature feature--flip">
-        <div class="feature__media">
-          <img class="screenshot" src="screenshots/Race select.png" alt="Race select">
-          <img class="screenshot" src="screenshots/Billiards.png" alt="Billiards scoring">
-        </div>
-        <div class="feature__copy">
-          <h3>Billiards / pool</h3>
-          <p><strong>Cue sports</strong> — 8-Ball and 9-Ball. Select the race and track the score. No more sliding coins along the rail.</p>
-          <p>When a player is one rack from the win, the app flags them as on the hill.</p>
+          <p><strong>Full match scoring</strong>: points, games and sets, from "Love" through "Deuce" and "Adv" to the match.</p>
+          <p>Play best of 1, 3 or 5 sets, with or without a tiebreak. Under More, choose short sets (4 games), standard (6) or pro sets (8), and ad or no-ad scoring.</p>
+          <p>A summary after each set, and undo for any mis-tap.</p>
         </div>
       </article>
 
       <article class="feature">
         <div class="feature__media">
-          <img class="screenshot" src="screenshots/Race select.png" alt="Simple race select">
-          <img class="screenshot" src="screenshots/Simple.png" alt="Simple counter">
+          <img class="screenshot" src="screenshots/09-pool-race-and-sets-40mm.png" alt="Pool race and sets selection">
+          <img class="screenshot" src="screenshots/10-pool-match-sets-40mm.png" alt="Pool scoring in a best-of-three match">
         </div>
         <div class="feature__copy">
-          <h3>Even race</h3>
-          <p><strong>Simple option</strong> — counts whatever you need. Sometimes that is all you want.</p>
+          <h3>Pool</h3>
+          <p><strong>Cue sports</strong>: 8-Ball and 9-Ball. Pick the race and track the racks. No more sliding coins along the rail.</p>
+          <p>When a player is one rack from the win, the app flags them as on the hill.</p>
+          <p>Play a single race, or a match of best of 3 or 5 sets with a summary after each set.</p>
+        </div>
+      </article>
+
+      <article class="feature feature--flip">
+        <div class="feature__media">
+          <img class="screenshot" src="screenshots/08-golf-start-40mm.png" alt="Golf: choose 9 or 18 holes">
+          <img class="screenshot" src="screenshots/07-golf-40mm.png" alt="Golf scoring by hole">
+        </div>
+        <div class="feature__copy">
+          <h3>Golf</h3>
+          <p>Choose 9 or 18 holes and track your strokes. Use the crown to switch holes; the app totals your score.</p>
+          <p>Didn't finish a hole? Record a pick-up, which counts as 0 so you can enter your own number if you prefer.</p>
+          <p>No yardages, putts, or stroke types. We are not replacing your rangefinder. Think of it as beads on a string, upgraded.</p>
+        </div>
+      </article>
+
+      <article class="feature">
+        <div class="feature__media">
+          <img class="screenshot" src="screenshots/12-any-sport-race-40mm.png" alt="Any sport race selection">
+          <img class="screenshot" src="screenshots/06-pool-40mm.png" alt="Two-player race counter">
+        </div>
+        <div class="feature__copy">
+          <h3>Any sport</h3>
+          <p><strong>Simple option</strong>: a two-player race-to counter for whatever you're playing. Sometimes that is all you want.</p>
         </div>
       </article>
     </section>
